@@ -1,7 +1,5 @@
 # CMIWERNet
 
-**CMIWERNet: Salient Object Detection via Cross-Model Interaction and Wavelet-guided Edge Refinement**
-
 This repository is reserved for the official implementation of the proposed **CMIWERNet** framework.  
 
 > 🔧 **Note:** The code is currently undergoing an organization process and will be made available to the research community soon. Stay tuned for updates.
