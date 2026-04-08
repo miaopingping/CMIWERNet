@@ -1,10 +1,12 @@
-# CMIWERNet
+# Salient Object Detection via Cross-Model Interaction and Wavelet-guided Edge Refinement
 
 This repository is reserved for the official implementation of the proposed **CMIWERNet** framework.  
 
-> 🔧 **Note:** The code is currently undergoing an organization process and will be made available to the research community soon. Stay tuned for updates.
+## News
+✅ **[2026.4.8]** : Our paper is officially accepted by TIM 2026!
 
----
+## Abstract
+Salient Object Detection (SOD) aims to locate salient regions in complex visual scenes and segment the most salient objects, playing a crucial role in visual measurement systems. However, it has long faced challenges such as irregular topological structures of salient objects and inaccurate boundary prediction caused by cluttered background interference. Existing methods are limited by the inherent constraints of single-model architectures or suffer from inefficient cross-model fusion during encoding. To address these issues, this paper proposes a novel Cross-Model Interaction and Wavelet-guided Edge Refinement Network (CMIWERNet). Specifically, we design a Cross-Model Interaction Module (CMIM) that achieves deep feature collaboration and information exchange during the encoding phase, allowing heterogeneous features to effectively capture both local and global contexts. This enables our model to comprehend the complete topology of salient objects. Meanwhile, a Wavelet-guided Edge Refinement Module (WERM) is introduced to extract edge cues through spatial-frequency analysis and progressively refine the decoding process, thereby suppressing interference from cluttered backgrounds and achieving accurate edge prediction. Experimental evaluations indicate that our method (Ours-V) achieves eighteen best performances and six top-3 performances (excluding Ours-R) among all the twenty-four metrics in six datasets, surpassing existing solutions and offering a more excellent SOD solution for visual measurement applications.
 
 ## Datasets
 CMIWERNet was trained on the DUTS-TR training set and evaluated on all six test datasets. Below are the links to download each dataset:
